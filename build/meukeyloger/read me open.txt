@@ -1,0 +1,6 @@
+para executar em segundo plano, copie esse script, altere o caminho, salve com .vbs
+
+
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run chr(34) & "C:\Users\TALIS-LOCAL\Desktop\teclado\build\exe.win-amd64-3.12\teclado.exe" & Chr(34), 0
+Set WshShell = Nothing

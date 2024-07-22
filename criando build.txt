@@ -1,0 +1,2 @@
+1 -  venv\Scripts\activate
+2 -  python setup.py build  *setup.pyarquivo de configuração ond terá as blibliotecas e o caminho da aplicaçao    
