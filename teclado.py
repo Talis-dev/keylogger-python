@@ -22,7 +22,7 @@ with open('log_teclas.txt', 'a') as log:
         #log.write(f'Tecla {key} liberada\n')teste segunda321
         #print(f'Tecla {key} liberada\n')
         
-        if key == keyboard.Key.home:
+        if key == keyboard.Key.home: #tecla liberada
             # Finaliza o listener ao pressionar a tecla home
             return False
 
